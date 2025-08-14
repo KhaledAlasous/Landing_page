@@ -1,0 +1,232 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    --colorback:rgb(20, 119, 158);
+    --colorborder:black;
+}
+.navbar{
+    width: 100%;
+    background-color:var(--colorback);
+    position:fixed;
+    
+}
+.logo{
+    font-size: 25px;
+}
+.navbar .logo::selection{
+    background-color: #fff;
+    color: #000;
+    
+    
+  }
+/*contener of navbar**/
+.navbar .contener{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: auto;
+}
+/*Dropdown list**/
+.ngvatione{
+    width:100px;
+    position: absolute;
+    right:25px;
+    top:45px;
+    border: 3px var(--colorborder) solid;
+    background-color:var(--colorback);
+    opacity:0;
+    transition:0.5s;
+}
+
+.ngvatione a{
+    text-decoration: none;
+    color:black;
+}
+.list{
+    width: 100%;
+    height:40px;
+    background-color:var(--colorback);
+    padding: 10px;
+    font-size: 19px;
+    position: relative;
+}
+.ngvatione::before{
+    content: "";
+    border-left: 8px transparent solid;
+    border-bottom: 8px var(--colorborder)  solid;
+    border-right: 8px transparent solid;
+    position: absolute;
+    top:-10px;
+    right: 5px;
+    
+    
+}
+.list:hover{
+    background-color: rgba(150, 148, 148, 0.822);
+    font-size:20px;
+}
+.icon-list{ 
+    font-size: 35px;
+    padding: 5px;
+    position: relative; 
+}
+.icon-list:hover .ngvatione {
+    opacity:1;    
+}
+i:hover{
+    transition:3s;
+}
+.preface{
+    width: 100%;
+    height:100vh;
+    background-image:url(../images/vecteezy_abstract-wave-line-pattern-on-dark-blue-background_49925799.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* start**/
+.intro-section {
+    width: 90%;
+    max-width: 800px;
+    /*margin: 30px auto;**/
+    color: #cce7ff; /* لون فاتح يناسب الأزرق */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    z-index: 10;
+    padding: 30px 20px;
+    background: rgba(0, 51, 102, 0.7); /* خلفية نصف شفافة بتدرج أزرق */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  .intro-section h1 {
+    font-size:3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px #001f33;
+    letter-spacing: 1px;
+  }
+  
+  .intro-section p {
+    font-size: 1.50rem;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    text-shadow: 1px 1px 4px #001f33;
+  }
+  .intro-section p::selection{
+    background-color: #fff;
+    color: #000;
+  }
+  .intro-section h1::selection{
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .subscribe-form input[type="email"] {
+    padding: 12px 18px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    width: 270px;
+    max-width: 100%;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .subscribe-form input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0 0 8px #0099ff;
+  }
+  
+  .subscribe-form input[type="email"]::selection{
+    background-color: rgb(0, 0, 0);
+    color:#ffffff;
+  }
+
+  .subscribe-form button {
+    background: linear-gradient(45deg, #00aaff, #006f99);
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background .4s ease;
+    box-shadow: 0 4px 10px rgba(0, 136, 204, 0.6);
+  }
+  .subscribe-form button::selection{
+    background-color: white;
+    color:#000;
+  }
+  
+  .subscribe-form button:hover {
+    background: linear-gradient(45deg, #006f99, #003f55);
+    box-shadow: 0 6px 14px rgba(0, 95, 122, 0.8);
+  }
+  
+  @media (min-width:32px) and (max-width: 480px) {
+    .subscribe-form {
+      flex-direction: column;
+      gap: 12px;
+    }
+    .subscribe-form input[type="email"],
+    .subscribe-form button {
+      width: 100%;
+    }
+    .intro-section h1 {
+        font-size: 40px;
+    }
+    .intro-section p {
+        font-size:16px;
+    }
+  }
+  @media (min-width: 429px) and (max-width: 525px) {
+    .intro-section h1 {
+        font-size: 35px;
+    }
+  }
+  @media (min-width:305px) and (max-width: 428px) {
+    .intro-section h1 {
+        font-size: 20px;
+    }
+    .intro-sectionp {
+        font-size:16px;
+    }
+
+  }
+
+  /* end**/
+  .end{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(37, 34, 34, 0.726);
+  }
+  .end p{
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    padding: 15px 20px;
+  }
+.end p::selection{
+  background-color: #000;
+}
