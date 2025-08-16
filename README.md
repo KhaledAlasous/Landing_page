@@ -12,9 +12,11 @@ Built using **HTML** and **CSS**, optimized for all devices, and designed with a
 ---
 
 ## Screenshots
-*(Add your screenshots inside an `assets` folder and link them here)*  
+This image for disktop :
 ![Landing Page Screenshot](Screenshot1.png)  
+This image for mobile :
 ![Mobile View](Screenshot2.png)
+![Mobile View](Screenshot3.png)
 
 ---
 
