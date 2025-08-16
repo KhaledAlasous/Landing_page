@@ -17,7 +17,7 @@ This image for disktop :
 This image for mobile :
 ![Mobile View](Screenshot2.png)
 ![Mobile View](Screenshot3.png)
-
+*Note: The mobile view includes scroll functionality to ensure the content is fully visible, well-organized, and user-friendly across all devices.*
 ---
 
 ##  Features
