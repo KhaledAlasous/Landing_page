@@ -14,7 +14,7 @@ Built using **HTML** and **CSS**, optimized for all devices, and designed with a
 ## Screenshots
 *(Add your screenshots inside an `assets` folder and link them here)*  
 ![Landing Page Screenshot](assets/screenshot1.png)  
-![Mobile View](assets/screenshot2.png)
+![Mobile View]([assets/screenshot2.png](https://github.com/KhaledAlasous/Landing_page/commit/b5e8d46f6a96cdb4a589828d75166571832363d3#diff-9afe5a047826216500fa3d7e01083ad6c981eb612b59cf731942eb79121bb6fa))
 
 ---
 
