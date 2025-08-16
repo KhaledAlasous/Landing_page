@@ -15,9 +15,10 @@ Built using **HTML** and **CSS**, optimized for all devices, and designed with a
 This image for disktop :
 ![Landing Page Screenshot](Screenshot1.png)  
 This image for mobile :
+*Note: The mobile view includes scroll functionality to ensure the content is fully visible, well-organized, and user-friendly across all devices.*
 ![Mobile View](Screenshot2.png)
 ![Mobile View](Screenshot3.png)
-*Note: The mobile view includes scroll functionality to ensure the content is fully visible, well-organized, and user-friendly across all devices.*
+
 ---
 
 ##  Features
