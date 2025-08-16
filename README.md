@@ -38,3 +38,12 @@ This image for mobile :
 ---
 
 ## Project Structure
+├── index.html
+├── main.css
+├── favicon.ico
+├── vecteezy_abstract-wave-line-pattern-on-dark-blue-background_49925799.jpg
+└── assets/
+├── screenshot1.png
+└── assets/
+├── screenshot2.png
+└── screenshot3.png
