@@ -84,7 +84,7 @@ i:hover{
 .preface{
     width: 100%;
     height:100vh;
-    background-image:url(../images/vecteezy_abstract-wave-line-pattern-on-dark-blue-background_49925799.jpg);
+    background-image:url(vecteezy_abstract-wave-line-pattern-on-dark-blue-background_49925799.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     display: flex;
@@ -229,4 +229,5 @@ i:hover{
   }
 .end p::selection{
   background-color: #000;
+
 }
